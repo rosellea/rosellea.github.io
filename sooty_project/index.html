@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meowly Planet</title>   
+</head>
+<body>
+   <header>
+    <!-- content of the header here -->
+    <img id="SootyLogo" src="SootyLogo.png" alt="Moewly Planet's logo">
+    <h1 id="logo">MEOWLY PLANET</h1>
+     
+     <nav>
+        <ul id="nav-ul">
+            <li>
+                <a href="" class="navbutton">Home</a>
+            </li>
+            <li>
+                <a href="" class="navbutton">Our Team</a>
+            </li>
+            <li>
+                <a href="" class="navbutton"> Favourites</a>
+            </li>
+            <li>
+                <a href="" class="navbutton"> Rankings</a>
+            </li>
+            <li>
+                <a href="" class="navbutton">Photos</a>
+            </li>
+        </ul>
+     </nav>
+    
+
+   </header> 
+   <main>
+
+   <div id="search_bar">
+        <label for="search"></label>
+        <textarea name="search" id="search" cols="100" rows="1"></textarea>
+        <input type="submit" value="Search">
+    </div>
+
+    <div id="main-content">
+        <aside>
+            <section>
+                <h4>Filter by Month</h4>
+                <nav>
+                    <ul>
+                        <li><a href=""></a>September</li>
+                        <li><a href=""></a>October</li>
+                        <li><a href=""></a>November</li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h4> Filter by Category</h4>
+                <nav>
+                    <ul>
+                        <li><a href=""></a>Treats</li>
+                        <li><a href=""></a>Sleeping</li>
+                        <li><a href=""></a>Fun</li>
+                        <li><a href=""></a>Tips</li>
+                        <li><a href=""></a>Hoomans</li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <div id="content-wrapper">
+            <article>
+                <header>
+                    <!-- article's header goes here -->
+                    <h2> Our Mission </h2> 
+                </header>
+                <main>
+                    <p> At Meowly Planet we recommend all things linked to cats. This site gives cat-lifestyle recommendations crafted by Sooty (our CEO) so that you may live a life full of comfort.</p>
+                    <div id="quote">
+                        <blockquote> 
+                            "On this website you will find everything from best sleeping spots to delicious snack recommendations. And of course, how to manipulate your hoomans!" - <cite> Sooty, CEO </cite>
+                        </blockquote>
+                    </div>
+                   
+                </main>
+            </article>
+            
+            <header>
+                <h2> Our Team </h2>
+            </header>
+
+            <div class="carousel"> 
+                
+                <div class="carousel_item active">
+                    <img src="Sooty.JPG" alt="Black Cat">
+                    <p class="caption"> Sooty, CEO </p>
+                </div>
+
+                <div class="carousel_item">
+                    <img src="Sergio.jpg" alt="White Cat">
+                    <p class="caption"> Sergio, Head of Technology </p>
+                </div>
+
+                <div class="carousel_item">
+                    <img src="Ambrose.jpg" alt="Ginger Cat">
+                    <p class="caption"> Ambrose, International Operations </p>
+                </div>
+
+                <div class="carousel_item">
+                    <img src="GreyCat.jpg" alt="Grey Cat">
+                    <p class="caption"> Fluffy, Marketing Intern </p>
+                </div>
+
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+                
+            </div>
+            
+            <article>
+                <header>
+        
+                    <h2> TREAT OF THE MONTH </h2> 
+                </header>
+                <main>
+                    <p> This months winner is Purrfect Delights, with their Tuna Tango Treats: </p>
+                    <div class="images">
+                        <img src="cat-food.png" alt="Cat Food">
+                    </div>
+
+                    <blockquote>
+                        We're pawsitively thrilled to share our thoughts on Purrfect Delights Tuna Tango treats. These delectable bites had us purring with delight and begging for more! If you want your taste buds to dance with joy, these treats are an absolute must-try. Trust me, your hoomans will be impressed with your sophisticated palate!
+                    </blockquote> - <cite> ⭐⭐⭐⭐⭐ 5/5 </cite>
+            
+                </main>
+            </article>
+            <article>
+                <header>
+                    
+                    <h2> TOP 3 BEST SLEEPING SPOTS </h2> 
+                </header>
+                <main>
+                    <div class="top"> 
+                        <img src="WindowSleep.jpg" alt="Cat sleeping by a window">
+                        <img src="BedSleep.JPG" alt="Cat sleeping in bed">
+                        <img src="sleepingcat.jpeg" alt="Cat sleeping outside">
+                    </div>
+                    <ol>
+                        <li> Near a Window: Sunbeam paradise! I can watch birds, squirrels, and everything that moves outside while staying cozy and warm inside. Bonus: the breeze ruffles my fur just right as I doze off mid-birdwatch.</li>
+                        <br>
+                        <li> Human’s Bed: Ah, the ultimate cloud of comfort! Soft blankets, warm pillows, and it smells just like my hooman. Perfect for long, luxurious naps where I can stretch out like royalty. Best part? No one can resist giving me belly rubs when they see me here.</li>
+                        <br>
+                        <li> In the Garden: Ah, the great outdoors—where the grass is cool and the breeze is just right. I can sprawl out under the sun, hidden among the flowers, with all the smells of nature around me. Birds chirping, leaves rustling—it's like a natural lullaby. Just watch out for the occasional bug landing on my tail... but hey, that’s part of the fun!</li>
+                        <br>
+                    </ol>
+                </main>
+            </article>
+        </div>
+
+    </div>
+    
+     <script src="script.js"></script>
+    
+    
+
+     <hr>
+    <h2> Contact Us </h2>
+    <form action="" method="">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"required>
+        <br>
+
+        <label for="Last_name">Last Name:</label>
+        <input type="text" id="Last_name" name="Last_name"required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        
+        <label for="type">Type:</label>
+        <input type="radio" name="type" id="cat" value="cat">
+        <label for="cat">Cat</label>
+        <input type="radio" name="type" id="dog" value="dog">
+        <label for="dog">Dog</label>
+        <input type="radio" name="type" id="human" value="human">
+        <label for="human">Human</label>
+        <br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="united_kingdom">United Kingdom</option>
+            <option value="eu">EU</option>
+            <option value="US">US</option>
+        </select>
+        <br>
+
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message" cols="20" rows="5"></textarea>
+        <br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our newsletter!</label>
+        <br>
+
+        <input type="submit" value="Send!">
+        
+    </form>
+    <hr>
+   </main>
+   <footer>
+    <!-- footer content goes here -->
+    <img id="SootyLogo2" src="SootyLogo.png" alt="Moewly Planet's logo"> 
+    <h2 id="logo2"> MEOWLY PLANET</h2>
+     <section>
+        <nav>
+            <ul id="footer-ul">
+                <div>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Useful Information</a></li>
+                </div>
+                <div>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="" >Cookie Policy</a></li> 
+                </div>
+            </ul>
+        </nav>
+     </section>
+   </footer>
+</body>
+</html> 
